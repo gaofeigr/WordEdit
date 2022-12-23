@@ -12,5 +12,29 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+    <dependencies>
+        <!--        <dependency>-->
+        <!--            <groupId>org.docx4j</groupId>-->
+        <!--            <artifactId>docx4j</artifactId>-->
+        <!--            <version>6.1.0</version>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.docx4j</groupId>-->
+        <!--            <artifactId>docx4j-ImportXHTML</artifactId>-->
+        <!--            <version>6.1.0</version>-->
+        <!--        </dependency>-->
 
+
+
+        <dependency>
+            <groupId>org.docx4j</groupId>
+            <artifactId>docx4j-ImportXHTML</artifactId>
+            <version>8.3.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.docx4j</groupId>
+            <artifactId>docx4j-JAXB-Internal</artifactId>
+            <version>8.2.9</version>
+        </dependency>
+    </dependencies>
 </project>
